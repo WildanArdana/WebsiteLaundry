@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.background-sampul {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 111px;
+    background-attachment: fixed;
+    /* height: 500px; */
+    max-height: 1112px;
+}
+
+.atas {
+    margin-top: -80px;
+}
+
+.ikon1 {
+    width: 100px;
+}
+
+.rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+
+}
+
+.rgba-gradient2 {
+    background: -moz-linear-gradient(45deg, rgb(43, 27, 161), rgb(29, 210, 177) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(43, 27, 161), rgb(29, 210, 177) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgb(43, 27, 161), rgb(29, 210, 177) 100%));
+    background: -o-linear-gradient(45deg, rgb(43, 27, 161), rgb(29, 210, 177) 100%);
+    background: linear-gradient(to 45deg, rgb(43, 27, 161), rgb(29, 210, 177) 100%);
+
+}
+
+
+.plus {
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 111px;
+    height: 700px;
+    max-height: 1112px;
+}
+
+.gra2 {
+    background: #5f2c82;
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+    background: linear-gradient(to right, #49a09d, #5f2c82);
+
+}
+
+
+.gra3 {
+    background: #6441A5;
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    background: linear-gradient(to right, #2a0845, #6441A5);
+}
+
+.gra4 {
+    background: #43cea2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.gra5 {
+    background: #9D50BB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.gra6 {
+    background: #606c88;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.gra7 {
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card:hover {
+    background-color: #457fca;
+    color: white;
+    transition: 500ms;
+}
+
+
+.parallax {
+    background: linear-gradient(rgba(110, 72, 170, 0.705), #9D50BB 100%), url("../img/parallax.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

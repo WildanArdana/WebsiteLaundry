@@ -1,0 +1,8 @@
+#user administrator :
+
+username : admin
+pass : admin
+
+login administrator di login.php
+
+#Nama DataBase : penjualan
